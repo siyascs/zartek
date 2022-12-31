@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    }
+]

@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Volumes/Projects/Siyas/Documents/zartekcode/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="/Volumes/Projects/Siyas/Documents/zartekcode/build/app"
+    bootClassPath="/Volumes/Projects/SDK/android-sdk/platforms/android-31/android.jar:/Volumes/Projects/SDK/android-sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

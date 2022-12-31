@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

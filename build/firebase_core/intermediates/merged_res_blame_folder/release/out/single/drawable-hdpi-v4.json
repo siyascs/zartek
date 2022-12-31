@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_core/intermediates/merged_res/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    }
+]

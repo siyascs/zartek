@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/google_sign_in_android/intermediates/merged_res/release/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/dee4150a2bf056a343d3c7b72964e8b0/transformed/jetified-play-services-auth-20.4.0/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/google_sign_in_android/intermediates/merged_res/release/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/dee4150a2bf056a343d3c7b72964e8b0/transformed/jetified-play-services-auth-20.4.0/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/google_sign_in_android/intermediates/merged_res/release/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/dee4150a2bf056a343d3c7b72964e8b0/transformed/jetified-play-services-auth-20.4.0/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/c44d936a4648a14b3664d64fc0e74bdd/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Volumes/Projects/Siyas/Documents/zartekcode/build/firebase_auth/intermediates/merged_res/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/siyas/.gradle/caches/transforms-3/424d1dd21f7a01097cc72ab657a70aa6/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_text_disabled.xml"
+    }
+]
