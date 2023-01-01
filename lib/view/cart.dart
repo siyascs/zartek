@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:zartek/utils/Colors.dart';
 import 'package:zartek/view/homeScreen.dart';
 import 'package:zartek/viewModel/cartViewModel.dart';
 import 'package:zartek/viewModel/dishesViewModel.dart';
+import 'package:zartek/widget/styles.dart';
 
 class CartScreen extends StatefulWidget {
   final String authType;
@@ -22,7 +24,14 @@ class _CartScreenState extends State<CartScreen> {
     return  Scaffold(
       appBar: AppBar(
         elevation: 0,
-        title: const Text("Order Summary"),
+        backgroundColor: whiteColor,
+        leading: IconButton(
+          icon: const Icon(Icons.arrow_back, color: Colors.grey),
+          onPressed: () => Navigator.push(context, MaterialPageRoute(
+              builder: (context) => HomeScreen(authType: widget.authType)
+          )),
+        ),
+        title:  Text("Order Summary",style: poppinsRegularText()),
       ),
         body: Consumer<CartViewModel>(
       builder: (context, value, child) =>value.lst.isNotEmpty?Card(
@@ -33,89 +42,104 @@ class _CartScreenState extends State<CartScreen> {
                 height: 35,
                 width: screenSize.width,
                 decoration: BoxDecoration(
-                    color: Color(0xFF0E3C22),
+                    color: darkGreen,
                     borderRadius: BorderRadius.circular(5)
                 ),
                 child: Center(
                   child: Padding(
                       padding: const EdgeInsets.all(4),
-                      child: Text("${value.lst.length} Dishes - ${value.getItemCount()} Items")
+                      child: Text("${value.lst.length} Dishes - ${value.getItemCount()} Items",style: poppinsSemiBoldWhiteText(),)
                   ),
                 ),
               ),
+               SizedBox(height: 10),
                Expanded(
                 child: ListView.builder(
                       itemCount: value.lst.length,
                       itemBuilder: (context, index) {
-                        return ListTile(
-                          leading: Text("0"),
-                          title: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(value.lst[index].dishName),
-                              SizedBox(height: 8),
-                              Text("INR ${value.lst[index].price*value.lst[index].itemCount}"),
-                              SizedBox(height: 8),
-                              Text("${value.lst[index].calories*value.lst[index].itemCount} Calories"),
+                        return Column(
+                          children: [
+                            ListTile(
+                              leading: value.lst[index].dishType==1?
+                              Image.asset("assets/images/vegicon.png",width: 30,height: 30):Image.asset("assets/images/nonvegicon.png",width: 30,height: 30),
+                              title: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(value.lst[index].dishName,style: poppinsBoldText()),
+                                  const SizedBox(height: 8),
+                                  Text("INR ${value.lst[index].price*value.lst[index].itemCount}",style: poppinsMediumText()),
+                                  const SizedBox(height: 8),
+                                  Text("${value.lst[index].calories*value.lst[index].itemCount} Calories",style: poppinsMediumText()),
 
-                            ],
-                          ),
-                          trailing:
-                          Container(
-                            height: 35,
-                            width: 100,
-                            decoration: BoxDecoration(
-                                color: Color(0xFF0E3C22),
-                                borderRadius: BorderRadius.circular(5)
+                                ],
+
+                              ),
+                              trailing:
+                              Container(
+                                height: 35,
+                                width: 100,
+                                decoration: BoxDecoration(
+                                    color: darkGreen,
+                                    borderRadius: BorderRadius.circular(5)
+                                ),
+                                child: Padding(
+                                    padding: const EdgeInsets.all(4),
+                                    child:
+                                    Consumer<CartViewModel>(
+                                      builder: (context, value, child) => Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          GestureDetector(
+                                              onTap: (){
+                                                if(value.lst[index].itemCount!=0){
+                                                  setState((){
+                                                    value.lst[index].itemCount--;
+                                                  });
+                                                }
+                                              },
+                                              child: const Icon(Icons.remove,color: Colors.white)),
+                                          Text(value.lst[index].itemCount.toString(),style: TextStyle(color: Colors.white,fontSize: 12)),
+                                          GestureDetector(
+                                              onTap: (){
+                                                setState((){
+                                                  value.lst[index].itemCount++;
+
+                                                });
+                                                if(value.lst[index].itemCount>1){
+                                                  value.update(value.lst[index].dishId,
+                                                      value.lst[index].dishName,
+                                                      value.lst[index].price,
+                                                      value.lst[index].dishType,
+                                                      value.lst[index].calories,
+                                                      value.lst[index].itemCount);
+                                                }
+                                              },
+                                              child: const Icon(Icons.add,color: Colors.white)),
+                                        ],
+                                      ),
+                                    )
+                                ),
+                              ),
+
                             ),
-                            child: Padding(
-                                padding: const EdgeInsets.all(4),
-                                child:
-                                Consumer<CartViewModel>(
-                                  builder: (context, value, child) => Row(
-                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      GestureDetector(
-                                          onTap: (){
-                                            setState((){
-                                              value.lst[index].itemCount--;
-                                            });
-                                          },
-                                          child: const Icon(Icons.remove,color: Colors.white)),
-                                      Text(value.lst[index].itemCount.toString(),style: TextStyle(color: Colors.white,fontSize: 12)),
-                                      GestureDetector(
-                                          onTap: (){
-                                            setState((){
-                                              value.lst[index].itemCount++;
-
-                                            });
-                                            if(value.lst[index].itemCount>1){
-                                              value.update(value.lst[index].dishId,
-                                                  value.lst[index].dishName,
-                                                  value.lst[index].price,
-                                                  value.lst[index].dishType,
-                                                  value.lst[index].calories,
-                                                  value.lst[index].itemCount);
-                                            }
-                                          },
-                                          child: const Icon(Icons.add,color: Colors.white)),
-                                    ],
-                                  ),
-                                )
-                            ),
-                          ),
-
+                            const SizedBox(height: 10),
+                            const Divider()
+                          ],
                         );
                       },
                     ),
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  const Text("Total Amount"),
-                  Text("INR ${value.getTotalAmount()}")
-                ],
+              Container(
+                margin: const EdgeInsets.only(left: 10,right: 10),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                     Text("Total Amount",style: poppinsBoldText()),
+                    Text("INR ${value.getTotalAmount()}",style: poppinsBoldText())
+                  ],
+                ),
               ),
+              const SizedBox(height: 20),
 
               GestureDetector(
                 onTap: (){
@@ -126,13 +150,13 @@ class _CartScreenState extends State<CartScreen> {
                   height: 35,
                   width: screenSize.width,
                   decoration: BoxDecoration(
-                      color: Color(0xFF0E3C22),
+                      color: darkGreen,
                       borderRadius: BorderRadius.circular(5)
                   ),
-                  child: const Center(
+                  child:  Center(
                     child: Padding(
                         padding: EdgeInsets.all(4),
-                        child: Text("Place Order")
+                        child: Text("Place Order",style: poppinsSemiBoldWhiteText())
                     ),
                   ),
                 ),
@@ -140,7 +164,7 @@ class _CartScreenState extends State<CartScreen> {
 
             ],
           ),
-        ):const Center(child: Text("Cart is empty")),
+        ): Center(child: Text("Cart is empty",style: poppinsBoldText())),
         )
       );
   }

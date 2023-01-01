@@ -1,12 +1,14 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:zartek/utils/Colors.dart';
 import 'package:zartek/view/authenitcationScreen.dart';
 import 'package:zartek/view/cart.dart';
 import 'package:zartek/view/dishList.dart';
 import 'package:zartek/viewModel/cartViewModel.dart';
 import 'package:zartek/viewModel/dishesViewModel.dart';
 import 'package:zartek/widget/custom_tab_view.dart';
+import 'package:zartek/widget/styles.dart';
 
 class HomeScreen extends StatefulWidget {
   final String authType;
@@ -47,8 +49,24 @@ class _HomeScreenState extends State<HomeScreen> {
     return DefaultTabController(
       length: dishesViewModel.dishModel[0].tableMenuList.length,
       child: Scaffold(
+        backgroundColor: whiteColor,
         appBar: AppBar(
           elevation: 0,
+          backgroundColor: whiteColor,
+          leading: Builder(
+            builder: (BuildContext context) {
+              return IconButton(
+                icon: const Icon(
+                  Icons.menu,
+                  color: Colors.grey // Changing Drawer Icon Size
+                ),
+                onPressed: () {
+                  Scaffold.of(context).openDrawer();
+                },
+                tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
+              );
+            },
+          ),
           actions: <Widget>[
             Padding(
               padding: const EdgeInsets.only(right: 0.0, top: 8.0),
@@ -57,7 +75,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   IconButton(
                     icon: const Icon(
                       Icons.shopping_cart,
-                      color: Colors.white,
+                      color: Colors.grey,
                     ),
 
                     onPressed: () {
@@ -114,7 +132,9 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: EdgeInsets.zero,
             children: [
               DrawerHeader(
-
+                  decoration: const BoxDecoration(
+                    color: greenColor,
+                  ),
                 child:
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -124,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       backgroundImage:
                       NetworkImage(imageUrl),
                       backgroundColor: Colors.transparent,
-                    ):CircleAvatar(
+                    ):const CircleAvatar(
                       radius: 30.0,
                       backgroundImage:
                       NetworkImage('https://via.placeholder.com/150'),
@@ -132,9 +152,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     SizedBox(height: 8),
 
-                    Text(name),
-                    SizedBox(height: 8),
-                    Text("ID: $uid")
+                    Text(name,style: poppinsMediumText()),
+                    const SizedBox(height: 8),
+                    Text("ID: $uid",style: poppinsMediumText())
                   ],
                 )
 

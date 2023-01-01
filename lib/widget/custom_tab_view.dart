@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:zartek/utils/Colors.dart';
 
 class CustomTabView extends StatefulWidget {
   final int itemCount;
@@ -104,8 +105,8 @@ class _CustomTabsState extends State<CustomTabView> with TickerProviderStateMixi
           child: TabBar(
             isScrollable: true,
             controller: controller,
-            indicatorColor: Colors.black,
-            labelColor: Colors.black,
+            indicatorColor: redColor,
+            labelColor: redColor,
             unselectedLabelColor: Theme.of(context).hintColor,
             // indicator: BoxDecoration(
             //     borderRadius: BorderRadius.circular(8), // Creates border

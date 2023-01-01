@@ -20,14 +20,9 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => DishesViewModel()),
         ChangeNotifierProvider(create: (_) => CartViewModel()),
       ],
-      child: MaterialApp(
+      child: const MaterialApp(
         title: 'Zartek',
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-          brightness: Brightness.light,
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-        ),
         home:  UserAuthentication(),
       ),
     );
