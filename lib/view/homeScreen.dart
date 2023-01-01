@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
     DishesViewModel dishesViewModel = context.watch<DishesViewModel>();
 
     return DefaultTabController(
-      length: dishesViewModel.dishModel[0].tableMenuList.length,
+      length: dishesViewModel.dishModel.isNotEmpty?dishesViewModel.dishModel[0].tableMenuList.length:0,
       child: Scaffold(
         backgroundColor: whiteColor,
         appBar: AppBar(
